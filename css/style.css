@@ -125,7 +125,7 @@ header {
   align-items: center;
 }
 .company-container img {
-  max-width: 400px;
+  max-width: 280px;
 }
 .company__button {
   max-height: 40px;
@@ -192,16 +192,18 @@ header {
 .notice-area {
   font-family: Montserrat;
 }
+
 .title-section {
+  font-family: Montserrat;
   font-weight: 300;
   color: #145c2a;
-  margin-bottom: 18px;
   font-size: 3rem;
 }
 .header__notice {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1.3rem;
 }
 .card p {
   font-size: 1.6rem;
@@ -213,4 +215,61 @@ header {
   font-size: 1.4rem;
   margin-top: 1.4rem;
   display: block;
+}
+/* Companys */
+.sinmed-background {
+  background: url(../assets/images/sinmed.png) center center no-repeat;
+  background-size: cover;
+  height: 175px;
+  border-radius: 15px;
+  padding: 15px;
+  position: relative;
+  padding-top: 70px;
+  flex-direction: COLUMN;
+  justify-content: space-between;
+  display: flex;
+  max-height: 163px;
+}
+.campanhas {
+  margin-right: 32px;
+}
+.campanhas h1,
+.unimed h1 {
+  margin-bottom: 1.3rem;
+}
+.mini-banners {
+  margin-top: 3.3rem;
+}
+.sinmed-background img {
+  max-width: 125px;
+}
+.subtitle-green {
+  color: #145c2a;
+  font-size: 1.6rem;
+  font-family: Montserrat;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.subtitle-white {
+  text-transform: uppercase;
+  margin-left: 0.5rem;
+  color: white;
+  font-size: 1.6rem;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+.float-sinmed {
+  position: absolute;
+  top: 0px;
+  color: white;
+  max-width: 280px;
+  font-weight: medium;
+  background-color: rgba(20, 92, 42, 0.8);
+  padding: 11px;
+  left: 15px;
+  border-radius: 0 0 5px 5px;
+}
+.float-sinmed p {
+  font-family: Montserrat;
+  font-size: 1.6rem;
 }
