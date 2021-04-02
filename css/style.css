@@ -337,3 +337,49 @@ header {
   align-items: center;
   list-style: none;
 }
+
+/* location */
+.location {
+  background-color: #057433;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.location__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.map {
+  display: flex;
+}
+.map img {
+  max-width: 150px;
+}
+
+.map span {
+  font-size: 1.2rem;
+  max-width: 340px;
+  font-weight: 400;
+  font-family: Montserrat;
+  color: white;
+  margin-left: 2.4rem;
+}
+
+.last__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.last__footer img {
+  max-width: 110px;
+}
+.last__footer small {
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family: Montserrat;
+  color: #000;
+}
