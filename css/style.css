@@ -22,7 +22,16 @@ img {
   margin: 0 auto;
   padding: 0 10px;
 }
-
+.btn {
+  background-color: #129238;
+  border: none;
+  border-radius: 25px;
+  max-width: 80px;
+  width: 100%;
+  color: WHITE;
+  height: 30px;
+  cursor: pointer;
+}
 /* Header */
 
 header {
@@ -139,7 +148,35 @@ header {
 .company__button span {
   padding-top: 5px;
 }
-
+/* Types */
+.card__type img {
+  max-width: 50px;
+}
+.row.row__types > * {
+  flex: 1 1 150px;
+}
+.types-area {
+  background-color: #f5fbf7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 40px;
+}
+.card__type {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Montserrat;
+  color: #000000;
+}
+.card__type h2 {
+  font-size: 1.8rem;
+  color: #145c2a;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.card__type p {
+  font-size: 1.4rem;
+}
 /* Noticias */
 .row {
   display: flex;
@@ -155,14 +192,17 @@ header {
 .notice-area {
   font-family: Montserrat;
 }
-.notice-area h1 {
+.title-section {
   font-weight: 300;
-
   color: #145c2a;
   margin-bottom: 18px;
-  font-size: 4.8rem;
+  font-size: 3rem;
 }
-
+.header__notice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .card p {
   font-size: 1.6rem;
   color: #145c2a;
