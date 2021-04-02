@@ -52,10 +52,19 @@ header {
 }
 .navigation__bar ul li {
   list-style: none;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
 }
-.navigation__bar ul li:not(:first-child) {
-  margin-left: 2.4rem;
+.navigation__bar ul li:hover {
+  background-color: #129238;
+  cursor: pointer;
 }
+.active {
+  background-color: #129238;
+}
+
 .navigation__bar ul li a {
   font-size: 1.6rem;
   font-weight: 300;
