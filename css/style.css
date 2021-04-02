@@ -471,6 +471,19 @@ header {
   .navigation__desktop {
     display: none;
   }
+  .social__media.--mobile {
+    justify-content: space-around;
+    display: flex;
+  }
+  .social__media.--desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1146px) {
+  .menu {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 540px) {
