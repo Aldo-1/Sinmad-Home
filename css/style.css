@@ -631,6 +631,7 @@ input:checked ~ label .hamburguer:after {
 
 .active-menu {
   visibility: visible;
+  pointer-events: initial;
   opacity: 1;
 }
 
