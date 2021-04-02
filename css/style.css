@@ -228,7 +228,7 @@ header {
   flex-direction: COLUMN;
   justify-content: space-between;
   display: flex;
-  max-height: 163px;
+  max-height: 158px;
 }
 .campanhas {
   margin-right: 32px;
@@ -254,8 +254,8 @@ header {
   text-transform: uppercase;
   margin-left: 0.5rem;
   color: white;
-  font-size: 1.6rem;
   font-family: Montserrat;
+  font-size: 1.6rem;
   font-weight: bold;
 }
 .float-sinmed {
@@ -272,4 +272,68 @@ header {
 .float-sinmed p {
   font-family: Montserrat;
   font-size: 1.6rem;
+}
+
+/* Contact */
+.contact {
+  background-color: #145c2a;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  margin-top: 90px;
+}
+
+.contact__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact__info {
+  max-width: 100px;
+  color: white;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.contact__days {
+  display: flex;
+  align-items: center;
+}
+.contact__days li:not(:first-child) {
+  margin-left: 26px;
+}
+.contact__days li p {
+  font-family: Montserrat;
+  font-weight: 400;
+  color: white;
+  font-size: 1.4rem;
+  max-width: 175px;
+  margin-left: 15px;
+}
+.contact__days li div {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: 72px;
+}
+.day {
+  font-size: 3rem;
+  color: #145c2a;
+  font-weight: medium;
+  font-family: Montserrat;
+}
+.month {
+  font-size: 1.2rem;
+  color: #145c2a;
+  font-weight: 300;
+  font-family: Montserrat;
+}
+.contact__days li {
+  display: flex;
+  align-items: center;
+  list-style: none;
 }
