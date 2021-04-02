@@ -1,0 +1,176 @@
+/* Reset global */
+body {
+  height: 100%;
+  font-family: "-apple-system , BlinkMacSystemFont, Segoe UI, Montserrat, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* Header */
+
+header {
+  background-color: #145c2a;
+  width: 100%;
+  height: 80px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.navigation__bar ul {
+  display: flex;
+  align-items: center;
+}
+.navigation__bar ul li {
+  list-style: none;
+}
+.navigation__bar ul li:not(:first-child) {
+  margin-left: 2.4rem;
+}
+.navigation__bar ul li a {
+  font-size: 1.6rem;
+  font-weight: 300;
+  font-family: Montserrat;
+  text-decoration: none;
+  color: white;
+}
+.social__media {
+  display: flex;
+  align-items: center;
+}
+.social__media li {
+  list-style: none;
+}
+.social__media li img {
+  width: 16px;
+  height: 16px;
+}
+.social__media li:not(:first-child) {
+  margin-left: 1.6rem;
+}
+.navigation__bar--associe {
+  font-size: 1.6rem;
+  font-family: Montserrat;
+  color: white;
+  padding-right: 10px;
+  font-weight: 300;
+  display: block;
+  position: relative;
+}
+.navigation__bar--associe::after {
+  position: absolute;
+  content: "";
+  height: 80px;
+  width: 2px;
+  display: block;
+  background-color: #104921;
+  opacity: 0.2;
+  left: -30px;
+  top: -32px;
+}
+
+.navigation__bar--associe::before {
+  position: absolute;
+  content: "";
+  height: 80px;
+  width: 2px;
+  display: block;
+  background-color: #104921;
+  opacity: 0.2;
+  right: 0px;
+  top: -32px;
+}
+/* Company */
+.company-area {
+  background-color: #f7f7f7;
+  height: 150px;
+}
+
+.company-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+.company-container img {
+  max-width: 400px;
+}
+.company__button {
+  max-height: 40px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  color: #129238;
+  border: 3px solid #129238;
+  max-width: 330px;
+  padding: 22px 34px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.company__button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.company__button span {
+  padding-top: 5px;
+}
+
+/* Noticias */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.row > * {
+  flex: 1 1 250px;
+}
+.card:not(:first-child) {
+  margin-left: 20px;
+}
+.notice-area {
+  font-family: Montserrat;
+}
+.notice-area h1 {
+  font-weight: 300;
+
+  color: #145c2a;
+  margin-bottom: 18px;
+  font-size: 4.8rem;
+}
+
+.card p {
+  font-size: 1.6rem;
+  color: #145c2a;
+  margin-top: 10px;
+}
+
+.card .date {
+  font-size: 1.4rem;
+  margin-top: 1.4rem;
+  display: block;
+}
